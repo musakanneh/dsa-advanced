@@ -4,8 +4,27 @@
 #include <algorithm>
 using namespace std;
 
-bool compare(int a, int b) {
-    return a > b;
+int binary_search(int arr[], int num, int key) {
+    int sum  = 0;
+    int end = num - 1;
+    int mid;
+
+    while (sum <= end) {
+        mid = sum + end / 2;
+
+        if (arr[mid] == key) {
+            return mid;
+        } else if (arr[mid] > key) {
+            end = mid - 1;
+        } else {
+            sum = mid + 1;
+        }
+    }
+    return -1;
+}
+
+bool compare(int num_1, int num_2) {
+    return num_1 > num_2;
 }
 
 void bubble_sort(vector<int> &a, int number) {

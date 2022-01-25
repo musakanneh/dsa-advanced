@@ -1,4 +1,5 @@
-## Competitive Programming Fundamental
+## Algorithm Mastery / Competitive Programming Fundamental
+### Content
 - [x] Time / Space Complexity Analysis
 - [ ] Data Structures & STL Containers
 - [ ] Bitmanipulation Basis
@@ -38,8 +39,3 @@
 - [ ] Interactive Problems
 - [ ] Random Randomisation
 - [ ] Policy Based Data Structures
-
-
-
-
-
